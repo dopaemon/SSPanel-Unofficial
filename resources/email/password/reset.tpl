@@ -113,14 +113,14 @@
                                     <td class="content-block"
                                         style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;"
                                         valign="top">
-                                        您收到此邮件是因为您在{$config['appName']}申请了密码重置,如果不是您申请的,请忽略此邮件.
+                                        Bạn nhận được yêu cầu lấy lại mật khẩu từ {$config['appName']} Nếu đây là nhầm lẫn vui lòng bỏ qua tin nhắn này.
                                     </td>
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                     <td class="content-block"
                                         style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;"
                                         valign="top">
-                                        若要开始重置密码,请点击以下链接 :)
+                                        Để bắt đầu đặt lại mật khẩu của bạn, vui lòng nhấp vào liên kết bên dưới
                                     </td>
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">

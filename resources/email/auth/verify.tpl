@@ -121,7 +121,7 @@
                                         valign="top">
                                         <h2 class="aligncenter"
                                             style="font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif; box-sizing: border-box; font-size: 24px; color: #000; line-height: 1.2em; font-weight: 400; text-align: center; margin: 40px 0 0;"
-                                            align="center">邮箱验证</h2>
+                                            align="center">Email xác thực.</h2>
                                     </td>
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -132,7 +132,7 @@
                                                style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; text-align: left; width: 80%; margin: 40px auto;">
                                             <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                 <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 5px 0;"
-                                                    valign="top">尊敬的用户：<br
+                                                    valign="top">Trân Trọng: <br
                                                             style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;"/>
                                                 </td>
                                             </tr>
@@ -140,8 +140,8 @@
                                             <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                 <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 5px 0;"
                                                     valign="top">
-                                                    <p>您请求的邮箱验证代码为: <b>{$code}</b>，请在网页中填写，完成验证。<br>(本验证代码在 {$expire}
-                                                        之前有效)</p>如果此验证码非您本人所请求，请直接忽视。<br>
+                                                    <p>Mã xác minh của bạn là: <b>{$code}</b>，Nhập mã này vào Web để hoàn tất xác minh<br>(Hạn dùng {$expire}
+                                                        )</p>Nếu bạn không yêu cầu mã xác minh này, vui lòng bỏ qua.<br>
                                                 </td>
                                             </tr>
 
