@@ -3,7 +3,7 @@
 <main class="content">
     <div class="content-header ui-content-header">
         <div class="container">
-            <h1 class="content-heading">编辑公告 #{$ann->id}</h1>
+            <h1 class="content-heading">Thông báo chỉnh sửa #{$ann->id}</h1>
         </div>
     </div>
     <div class="container">
@@ -13,7 +13,7 @@
                     <div class="card-main">
                         <div class="card-inner">
                             <div class="form-group form-group-label">
-                                <label class="floating-label" for="content">内容</label>
+                                <label class="floating-label" for="content">Nội Dung</label>
                                 <link rel="stylesheet"
                                       href="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/css/editormd.min.css"/>
                                 <div id="editormd">
@@ -30,7 +30,7 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-push-1">
                                         <button id="submit" type="submit"
-                                                class="btn btn-block btn-brand waves-attach waves-light">修改
+                                                class="btn btn-block btn-brand waves-attach waves-light"> Lưu lại
                                         </button>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                 },
                 error: jqXHR => {
                     $("#result").modal();
-                    $$.getElementById('msg').innerHTML = `发生错误：${
+                    $$.getElementById('msg').innerHTML = `Đã xảy ra lỗi：${
                         jqXHR.status
                     }`;
                 }

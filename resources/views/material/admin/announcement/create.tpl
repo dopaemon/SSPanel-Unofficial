@@ -3,7 +3,7 @@
 <main class="content">
     <div class="content-header ui-content-header">
         <div class="container">
-            <h1 class="content-heading">添加公告</h1>
+            <h1 class="content-heading">Thêm thông báo</h1>
         </div>
     </div>
     <div class="container">
@@ -13,7 +13,7 @@
                     <div class="card-main">
                         <div class="card-inner">
                             <div class="form-group form-group-label">
-                                <label class="floating-label" for="content">内容</label>
+                                <label class="floating-label" for="content"> Nội dung </label>
                                 <link rel="stylesheet"
                                       href="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/css/editormd.min.css"/>
                                 <div id="editormd">
@@ -30,19 +30,19 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-push-1">
                                         <div class="form-group form-group-label">
-                                            <label class="floating-label" for="vip">VIP等级</label>
+                                            <label class="floating-label" for="vip">Cấp độ VIP</label>
                                             <input class="form-control maxwidth-edit" id="vip" type="text" name="vip">
-                                            <p class="form-control-guide"><i class="material-icons">info</i>发送给等于或高于这个等级的用户
-                                                0为不分级</p>
+                                            <p class="form-control-guide"><i class="material-icons">info</i> Gửi cho người dùng ở cấp độ này hoặc cao hơn
+                                                Không được xếp hạng</p>
                                             <div class="checkbox switch">
                                                 <label for="issend">
                                                     <input class="access-hide" id="issend" type="checkbox"
-                                                           name="issend"><span class="switch-toggle"></span>是否发送邮件
+                                                           name="issend"><span class="switch-toggle"></span>Bạn có muốn nhận Mail không ?
                                                 </label>
                                             </div>
                                         </div>
                                         <button id="submit" type="submit"
-                                                class="btn btn-block btn-brand waves-attach waves-light">添加
+                                                class="btn btn-block btn-brand waves-attach waves-light"> Thêm
                                         </button>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                 },
                 error: jqXHR => {
                     $("#result").modal();
-                    $$.getElementById('msg').innerHTML = `发生错误：${
+                    $$.getElementById('msg').innerHTML = `Đã xảy ra lỗi: ${
                         jqXHR.status
                     }`;
                 }
